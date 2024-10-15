@@ -1,0 +1,104 @@
+// Variables
+$font-family: Arial, sans-serif;
+$background-color: #f5f3ec;
+$text-color: #3b2a1b;
+$dark-bg: #5c4a3a;
+$hover-bg: #7a5a46;
+$footer-bg: #b59f85;
+$card-border: #b8a59d;
+$card-bg: #e5d6c5;
+$productos-bg: url('../imagenes/fondoproductos.jpg');
+$contacto-bg: url('../imagenes/fondocontactos.webp');
+$info-bg: url('../imagenes/fondoinfo.jpg');
+$index-bg: url('../imagenes/fondoinicio.jpg');
+
+// Estilos generales
+body {
+    font-family: $font-family;
+    background-color: $background-color;
+    color: $text-color;
+}
+
+h2 {
+    margin-top: 50px;
+    color: $text-color;
+}
+
+// Navbar
+.navbar {
+    margin-bottom: 20px;
+}
+
+// Cards
+.card {
+    border: 1px solid $card-border;
+
+    .card-title {
+        color: $text-color;
+    }
+
+    .card-body {
+        background-color: $card-bg;
+    }
+}
+
+// Botones
+.btn-dark {
+    background-color: $dark-bg;
+    border-color: $dark-bg;
+
+    &:hover {
+        background-color: $hover-bg;
+    }
+}
+
+// Footer
+footer {
+    background-color: $footer-bg;
+    color: white;
+}
+
+// Fondos
+.productos-bg {
+    background-image: $productos-bg;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contacto-bg {
+    background-image: $contacto-bg;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: white;
+    min-height: 400px;
+}
+
+.info-bg {
+    background-image: $info-bg;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: white;
+    min-height: 400px;
+}
+
+.index-bg {
+    background-image: $index-bg;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    padding: 50px 0;
+}
+
+// Descripción
+.descripcion {
+    color: black;
+    font-family: $font-family;
+    font-size: 20px;
+    margin: 20px 0;
+}
