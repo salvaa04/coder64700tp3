@@ -1,11 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>CoolShoes - Tienda de Zapatillas</title>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">CoolShoes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/productos.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/info.html">Información</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="index-bg text-center text-white">
+        <h1>Bienvenido a CoolShoes</h1>
+        <p>Las mejores zapatillas para cada ocasión.</p>
+    </header>
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Nuestras Zapatillas Destacadas</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card mb-4">
+                    <img src="../imagenes/zapatilla1trav.webp" class="card-img-top" alt="Zapatilla 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Travis Scott x Air Jordan 1 OG alto</h5>
+                        <p class="card-text">Jordan 1 og high x Travis Scott</p>
+                        <a href="#" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card mb-4">
+                    <img src="../imagenes/zapatilla2.webp" class="card-img-top" alt="Zapatilla 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Dunk bajas</h5>
+                        <p class="card-text">Nike Dunk Low Retro Premium</p>
+                        <a href="#" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card mb-4">
+                    <img src="../imagenes/zapatilla3.png" class="card-img-top" alt="Zapatilla 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Jordan 4</h5>
+                        <p class="card-text">Jordan retro 4 'Military Black'</p>
+                        <a href="#" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center bg-dark text-white p-3">
+        <p>© 2024 CoolShoes</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
